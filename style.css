@@ -65,7 +65,7 @@ body {
 
 /* Progress Card */
 .progress-card {
-    background: #445de9; 
+    background: #e944ce; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,7 @@ body {
 }
 
 .progress-card h2 {
-    color: #FF5722; /* Orange font color */
+    color: #f3ef20; /* Orange font color */
 }
 
 .progress-card p {
