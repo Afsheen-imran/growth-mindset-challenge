@@ -1,12 +1,12 @@
 import streamlit as st
 
 # Custom CSS for styling and animations
-def local_css(file_name):
-    with open(file_name) as f:
+def local_css(file_name):  # Use a variable name like `file_name`
+    with open(file_name) as f:  # Open the CSS file
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load custom CSS
-local_css("style.css")
+local_css("style.css")  # Pass the file name as a string
 
 # App Title
 st.title("🌱 Growth Mindset Challenge")
